@@ -1,0 +1,350 @@
+html,
+html{
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+
+.navbar-dark {
+  background-color: black;
+}
+
+.footer{
+  background-color: rgb(0, 0, 0); 
+ }
+
+ .text-lage{
+  font-size: 14pt;
+ }
+ 
+ .row-content{
+   margin: 0px auto;
+   padding: 50px 0px 20px 0px; 
+   min-height: auto;
+ }
+ .pointer{
+  cursor: pointer;
+}
+
+
+.flex-warp{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item{
+  flex: 1 1 25%;
+}
+.item-games{
+  flex: 1 1 500px;
+}
+
+.item-contact{
+  flex: 1 1 10%;
+}
+
+
+
+
+/* index */
+
+.bg-heder{
+  height: 1000px;
+  background-image: url("img/index-fon.jpg");
+  background-size: cover;
+  overflow: hidden;
+  background-position: 70%;
+}
+
+.text-index{
+  color: #ffffff;
+  text-shadow: 5px 5px 15px rgb(0, 0, 0);
+  z-index: 5;
+  position: absolute;
+  top: 450px;
+  margin: 0% 15%; 
+}
+.polygon-index{
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 40%, 100% 20%, 100% 80%, 0 100%);
+  background: linear-gradient(to bottom left, 
+  #05a09875,
+  #025b6146); 
+  height: 1000px; 
+  width: 99vmax;  
+  z-index: 0;
+}
+.gradient{
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.index-head{
+  padding-bottom: 2vmax;
+  color: rgb(255, 255, 255);
+  font-size: 5vmax;
+  text-shadow: 0.5vmax 0.5vmax 0.2vmax #000000;   
+  text-align: center;
+}
+
+.index-text1{
+ color: #ffffff00;
+ font-size: 15vmax;
+ margin: 15% 0 0 0;
+ text-shadow: 1px 1px 2px black, 0 0 15px rgb(0, 255, 242);
+}
+.index-text2{
+  color: #ffffff00;
+  font-size: 8vmax;
+  text-shadow: 1px 1px 2px black, 0 0 15px rgb(255, 35, 35);
+}
+
+
+
+/* index */
+
+
+
+
+/* hardware */
+
+.text-position{
+  font-size: 1.6vmax;
+  color: aliceblue;
+}
+.block-hardware{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.stiky{
+  position: sticky;
+  top:50px;
+  z-index: 15;
+  
+}
+
+
+.cube-hardware{
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+}
+.bg-heder2{
+  height: 800px;
+  background-image: url("http://cyberzone.kiev.ua/img/galery/large/1047.jpg");
+  background-size: cover;
+  background-position: 50%;
+
+}
+
+
+
+
+
+
+/* ps4 */
+.polygon1-ps4{  
+  float: left;   
+  clip-path: polygon(0 50%, 100% 20%, 100% 60%, 0 100%);
+  background: linear-gradient(to bottom left, 
+  #feab5e56,
+  #c779d054,
+  #4bc0c854); 
+  height: 100%; 
+  width: 99vmax;  
+}
+.text-ps4-align{
+  top: 2900px;
+  position: absolute;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+  background: rgba(255, 255, 255, 0); 
+  height: 100%; 
+  width: 101%;
+}
+
+.img-ps4{
+  background-image: url("img/fon.jpg");
+  height: 1000px;
+  width: 100vmax;
+  background-size: cover;  
+  background-position: 70%;
+}
+.ps4-head{
+  color: rgb(255, 255, 255);
+  font-size: 8vmax;
+  text-shadow: 0.5vmax 0.5vmax 0.2vmax #000000;  
+}
+
+.ps4-text{
+  font-size: 20pt;
+  color: rgb(255, 255, 255);  
+  position: absolute;
+  top: 3300px;
+  text-shadow: 0vmax 0vmax 10px  #000000;
+  font-weight: 600; 
+}
+/* ps4 */
+
+
+/* ps5 */
+.polygon1-ps5{  
+  float: left;   
+  clip-path: polygon(0 20%, 100% 60%, 100% 100%, 0 80%);  
+  background: linear-gradient(to bottom left, 
+  #feab5e56,
+  #c779d054,
+  #4bc0c854); 
+  height: 100%; 
+  width: 99vmax;  
+  position: relative;
+}
+.text-ps5-align{
+  top: 1900px;
+  position: absolute;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+  background: rgba(255, 255, 255, 0); 
+  height: 100%; 
+  width: 100%;
+}
+.img-ps5{
+  background-image: url(https://i.eurosport.com/2020/06/12/2831542-58395868-2560-1440.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;  
+  background-position: 35%;
+}
+.ps5-head{
+  color: rgb(255, 255, 255);
+  font-size: 8vmax;  
+  text-shadow: 0.5vmax 0.5vmax 0.2vmax #000000; 
+}
+.ps5-text{
+  font-size: 20pt;
+  color: rgb(255, 255, 255);  
+  position: absolute;
+  top: 2200px;
+  text-shadow: 0vmax 0vmax 10px  #000000;
+  font-weight: 600; 
+
+}
+/* ps5 */
+
+
+
+/* oculus */
+.polygon1{  
+  float: left;   
+  clip-path: polygon(0 10%, 100% 0%, 100% 80%, 0 100%);
+  background: linear-gradient(to bottom left, 
+  #feab5e7e,
+  #c779d07c,
+  #4bc0c873); 
+  height: 100%; 
+  width: 100vmax;  
+}
+
+.polygon2{  
+  float: top;   
+  clip-path: polygon(0 60%, 100% 50%, 100% 100%, 0 100%);
+  background: rgb(255, 255, 255); 
+  height: 102%; 
+  width: 100%;   
+}
+
+.text-oculus-align{
+  top: 900px;
+  position: absolute;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+  background: rgba(255, 255, 255, 0); 
+  height: 100%; 
+  width: 100%;
+}
+
+
+.oculus-text{  
+  font-size: 20pt;
+  color: black;  
+  position: absolute;
+  top: 1500px;
+  font-weight: 600; 
+}
+
+.oculus-head{
+color: rgb(255, 255, 255);
+font-size: 8vmax;
+text-shadow: 0.5vmax 0.5vmax 5px #000000; 
+}
+.img-oculus{
+  background-image: url(https://itc.ua/wp-content/uploads/2017/10/Oculus-Rift.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+/* oculus */
+
+
+/* games */
+.game-head{
+  padding-top: 5vmax;
+  padding-bottom: 2vmax;
+  color: rgb(255, 255, 255);
+  font-size: 10vmax;
+  text-shadow: 0.5vmax 0.5vmax 0.2vmax #000000;   
+  text-align: center;
+}
+.game-content{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 4px 4px #03ffea; 
+  font-weight: 600;  
+}
+
+/* games */
+
+
+/* hardware */
+
+
+
+
+/* price */
+.bg-heder3{
+  height: 80vh;
+  background-image: url(" https://avatars.mds.yandex.net/get-altay/1637232/2a0000016aa157a6e8c2143c2cb1d2bcd058/XXL  ");
+  background-size: cover;
+  background-position: 30%;
+}
+.price-content{
+  font-size: 20px; 
+  position: absolute;
+  margin: auto;
+  top: 20%;
+  padding-top: 50px;
+  width: 100%;   
+  min-height: 400px;
+  background-color: #00000079;
+  border-radius: 15px;  
+}
+
+
+
+/* price */
+
+
+
+
+
+
