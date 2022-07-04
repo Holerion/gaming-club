@@ -343,7 +343,58 @@ text-shadow: 0.5vmax 0.5vmax 5px #000000;
 
 /* price */
 
+.containerBubels{
+  position: absolute;
+  width: 99%;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+}
+.bubbles{
+  position: relative;
+  display: flex;
+}
+.bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #03ffea;
+  margin: 0 0.5vmax;
+  border-radius: 15px;
+  box-shadow: 0 0 0 10px #03ffea4d,
+  0 0 50px #03ffea,
+  0 0 100px #03ffea;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even)
+{
+  background-color:#ff034f;
+  box-shadow: 0 0 0 10px #ff034f6e,
+  0 0 50px #ff034f,
+  0 0 100px #ff034f;  
+}
+@keyframes animate{
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
 
+
+
+ul.navbar-nav a:hover{
+  letter-spacing: 0.1em;
+  transition: 0.7s;
+  box-shadow: 0 0 0 2px #03ffea;
+  border-radius: 20px 0 5px;
+}
+
+ul.navbar-nav a{
+  transition: 0.5s;
+}
 
 
 
